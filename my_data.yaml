@@ -1,0 +1,10 @@
+# 注意：这里的路径一定要用绝对路径，不能有中文
+path: C:/Users/Lenovo/ultralytics
+train: images
+val: images
+
+# 类别数量（你昨天画了3种：电动车、汽车、自行车）
+nc: 3
+
+# 类别名称（顺序必须和刚才 json2yolo.py 里的 class_mapping 一致）
+names: ['电动车', '汽车', '自行车']
